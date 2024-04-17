@@ -2,7 +2,7 @@
 
 *{
     margin: 0px;
-    padding: opx;
+    padding: 0px;
 }
 
 html, body{
@@ -20,8 +20,7 @@ body{
 
 main{ 
     position: relative;
-    height: 100vh;
-    background-color: aquamarine;
+    height:100vh;
 }
 
 section#telefone{
@@ -29,10 +28,24 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    
     height: 626px;
     width: 310px;
-    background: url('imagens/frame-iphone.png');
-    background-size: auto;
-    background-repeat: no-repeat;
+    background: url('imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 21px;
+    width: 269px;
+    height: 473px;
+}
+
+ul img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px 15px 0px 15px;
+}
+
+
